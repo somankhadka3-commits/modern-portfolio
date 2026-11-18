@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A modern personal portfolio showcasing projects, skills, and ways to get in touch.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Soman Khadka — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="orb orb-one"></div><div class="orb orb-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Soman Khadka home"><span class="brand-mark">S</span><span>soman<span class="accent">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Projects</a><a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
+        <h1>Turning ideas<br>into <span class="gradient-text">digital reality.</span></h1>
+        <p class="hero-lede">Hi, I'm <strong>Soman Khadka</strong> — a curious creator who enjoys building thoughtful, useful experiences for the web.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span>↘</span></a><a class="button button-quiet" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><span>BASED IN NEPAL</span><span class="meta-line"></span><span>CREATIVE · CURIOUS · ALWAYS LEARNING</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract portfolio illustration">
+        <div class="art-grid"></div><div class="art-ring ring-a"></div><div class="art-ring ring-b"></div>
+        <div class="art-card"><span class="art-label">CURRENT FOCUS</span><div class="code-line"><i></i><i></i><i></i></div><div class="code-line short"><i></i><i></i></div><div class="code-line"><i></i><i></i><i></i></div><div class="art-terminal"><span>✦</span> Building what's next<span class="cursor">_</span></div></div>
+        <div class="floating-tag tag-top">✳ &nbsp; CREATE</div><div class="floating-tag tag-bottom">01 — PORTFOLIO</div>
+      </div>
+    </section>
+    <section class="section about-section" id="about">
+      <div class="section-kicker">01 / ABOUT</div><div class="section-content">
+        <h2>A little about <span class="gradient-text">me.</span></h2>
+        <p class="about-lede">I believe the best digital experiences feel simple, useful, and a little bit delightful.</p>
+        <p class="muted">I'm Soman, based in Nepal. I enjoy exploring technology, learning by making things, and turning ideas into practical projects. This portfolio is my corner of the internet — a place to share what I'm learning and building.</p>
+        <a class="text-link" href="#contact">Have an idea? Let's connect <span>↗</span></a>
+      </div>
+    </section>
+    <section class="section" id="skills">
+      <div class="section-kicker">02 / TOOLKIT</div><div class="section-content">
+        <h2>Things I like <span class="gradient-text">working with.</span></h2>
+        <p class="muted">A growing toolkit. I'm always open to learning something new.</p>
+        <div class="skill-grid"><div class="skill"><span>01</span><strong>HTML & CSS</strong><small>Structure · Styling</small></div><div class="skill"><span>02</span><strong>JavaScript</strong><small>Interaction · Logic</small></div><div class="skill"><span>03</span><strong>Responsive Design</strong><small>Mobile · Desktop</small></div><div class="skill"><span>04</span><strong>Git & GitHub</strong><small>Version control · Shipping</small></div></div>
+      </div>
+    </section>
+    <section class="section work-section" id="work">
+      <div class="section-kicker">03 / SELECTED WORK</div><div class="section-content">
+        <h2>Small ideas. <span class="gradient-text">Real projects.</span></h2>
+        <p class="muted">A few project concepts from my learning journey. More work coming soon.</p>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-visual visual-one"><span>✳</span><small>01 / WEB</small></div><div class="project-info"><div><h3>Personal Portfolio</h3><p>A home for ideas, skills, and work.</p></div><span class="project-arrow">↗</span></div></article>
+          <article class="project-card"><div class="project-visual visual-two"><span>◫</span><small>02 / PRODUCTIVITY</small></div><div class="project-info"><div><h3>Everyday Planner</h3><p>A simple concept for a calmer day.</p></div><span class="project-arrow">↗</span></div></article>
+          <article class="project-card"><div class="project-visual visual-three"><span>⌁</span><small>03 / EXPERIMENT</small></div><div class="project-info"><div><h3>Digital Playground</h3><p>Experiments in interaction and design.</p></div><span class="project-arrow">↗</span></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section section" id="contact">
+      <div class="section-kicker">04 / CONTACT</div><div class="section-content contact-box">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's make something<br><span class="gradient-text">meaningful.</span></h2>
+        <p class="muted">I'm always happy to hear about interesting ideas, collaborations, or opportunities.</p>
+        <a class="button button-primary" href="mailto:hello@example.com?subject=Hello%20Soman">Say hello <span>↗</span></a>
+        <p class="contact-note">Replace hello@example.com with your preferred email address.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">S</span><span>soman<span class="accent">.</span></span></a><span>Designed & built with curiosity.</span><span>© <span id="year"></span> Soman Khadka</span></footer>
+</body></html>
